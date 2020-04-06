@@ -1,0 +1,59 @@
+//
+// overrides
+//
+
+// @import "fonts/lineicon.css";
+@import "scss/variables";
+
+//
+// plugins
+//
+
+@import "scss/plugins/select2.min.css";
+@import "scss/plugins/ionicons.min.css";
+
+//
+// base
+//
+@import "scss/Base";
+@import "scss/Custom";
+
+//
+// pages
+//
+
+@import "scss/pages/Home";
+
+//
+// components
+//
+
+// @import "scss/Navigation";
+// @import "scss/Footer";
+// @import "scss/Breadcrumb";
+
+//
+// main
+//
+h1,
+h2 {
+	font-weight: 700;
+	line-height: 1;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+.subheading {
+	color: $primary;
+	text-transform: uppercase;
+	letter-spacing: 0.125em;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+// 
+// Responsive
+//
+// @import "scss/Responsive";

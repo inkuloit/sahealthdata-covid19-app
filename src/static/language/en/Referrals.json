@@ -1,0 +1,14 @@
+{
+    "document": {
+        "title": "Referrals"
+    },
+    "breadcrumb": {
+        "title": "Referrals",
+        "subheading": "Personally introduced members of Zarex"
+    },
+    "widget": {
+        "title": "Referrals",
+        "subtitle": "List of people who joined through you"
+    },
+    "noreferralText": "You have no referrals under your profile"
+}

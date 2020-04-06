@@ -1,0 +1,22 @@
+{
+    "document": {
+        "title": "Zarex Dashboard"
+    },
+    "mainCard": {
+        "heading": "Funds Overview",
+        "subheading": "Your online Zarex crypto exchange wallet",
+        "buttonText": "Add new address",
+        "balanceInUsd": "Balance in USD",
+        "balanceInZar": "Balance in ZAR",
+        "qrcode": {
+            "text_1": "To receive funds use barcode or address below",
+            "text_2": "This is your Zarex Address:",
+            "text_3": "Share this with anyone and they can use it to send you payments"
+        }
+    },
+    "transactionsCard": {
+        "heading": "Latest Transactions",
+        "subheading": "List of recent transactions",
+        "buttonText": "Preview all transactions"
+    }
+}

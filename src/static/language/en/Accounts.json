@@ -1,0 +1,39 @@
+{
+    "Accounts": {
+        "document": {
+            "title": "Accounts"
+        },
+        "breadcrumb": {
+            "title": "Accounts",
+            "subheading": "All linked cards, bank and crypto accounts"
+        },
+        "walletCard": {
+            "heading": {
+                "title": "Wallet",
+                "caption": "Your main zarex wallet"
+            },
+            "subtitle": "Available Balance",
+            "balanceInUsd": "Balance in USD",
+            "balanceInZar": "Balance in ZAR"
+        },
+        "addFundsButtonText": "Add Funds",
+        "addAccountButtonText": "Add Account",
+        "linkedBankAccountsCard": {
+            "widget": {
+                "title": "Linked Accounts and Cards",
+                "subtitle": "List of your linked accounts, used for withdrawals."
+            },
+            "dividerText1": "Bank accounts and/or cards",
+            "dividerText2": "Crypto accounts"
+        }
+    },
+    "AddAccount": {
+        "document": {
+            "title": "Add Account"
+        },
+        "breadcrumb": {
+            "title": "Add/Link an Account",
+            "subheading": "Link a bank card/account and/or crypto account"
+        }
+    }
+}

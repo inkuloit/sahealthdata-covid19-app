@@ -1,0 +1,68 @@
+@media (max-width: 991px) {
+    .page__container {
+        padding: 0;
+        .navbar-toggler {
+            border: 1px solid $tertiary !important;
+            margin: 10px;
+            .navbar-toggler-icon {
+                background-image: none;
+                float: left;
+                display: block;
+                position: relative;
+                margin: 9px 0;
+                width: 20px;
+                height: 2px;
+                background: #fff;
+                -moz-transition: all .2s ease-in-out;
+                -o-transition: all .2s ease-in-out;
+                -webkit-transition: all .2s ease-in-out;
+                transition: all .2s ease-in-out;
+                &:after,
+                &:before {
+                    position: absolute;
+                    background: #fff;
+                    height: 2px;
+                    content: " ";
+                    right: 0;
+                }
+                &:before {
+                    top: 6px;
+                    width: 20px;
+                    -moz-transition: width .2s ease-in-out;
+                    -o-transition: width .2s ease-in-out;
+                    -webkit-transition: width .2s ease-in-out;
+                    transition: width .2s ease-in-out;
+                }
+                &:after {
+                    top: -6px;
+                    width: 15px;
+                    transition: width .2s ease-in-out;
+                }
+            }
+        }
+        .navbar {
+            padding: 0;
+            width: 100%;
+            .navbar-nav {
+                .nav-link {
+                    border-bottom: 1px dotted #d7dde3;
+                    border-radius: 5px;
+                    color: #ebebf5;
+                    font-size: 12px;
+                    padding: 15px;
+                    width: 100%;
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+                }
+            }
+        }
+    }
+    .page__header {
+        .box {
+            .user {
+                display: none;
+            }
+        }
+    }
+}

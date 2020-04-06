@@ -1,0 +1,46 @@
+#breadcrumb {
+	margin: 20px 0 25px;
+	.page-heading {
+		.page-heading__container {
+			.title {
+				font-size: 1.7rem;
+			}
+			.account_money {
+				margin-right: 6px;
+				font-size: 1.5em;
+				font-weight: 600;
+				ul {
+					li {
+						display: inline;
+						justify-content: space-around;
+						&.crypto {
+							background: #fff;
+							padding: 8px 15px 8px 22px;
+							color: #2F2CD8;
+							border-radius: 30px 0 0px 30px;
+							border: 1px solid #fff;
+							transition: all 0.3s ease-in-out;
+							span {
+								margin-right: 10px;
+    							font-weight: 500;
+							}
+						}
+						&.usd {
+							border: 1px solid rgba(255, 255, 255, 0.08);
+							padding: 8px 20px 8px 10px;
+							border-radius: 0px 30px 30px 0px;
+							span {
+								margin-right: 10px;
+								font-weight: 500;
+    							color: #fff;
+							}
+							i {
+    							color: #fff;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

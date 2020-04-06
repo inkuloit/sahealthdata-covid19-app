@@ -1,0 +1,10 @@
+[
+    {
+        "label": "Credit/debit card",
+        "value": "bank"
+    },
+    {
+        "label": "Crypto account",
+        "value": "crypto"
+    }
+]

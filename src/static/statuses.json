@@ -1,0 +1,36 @@
+{
+    "transactions": [
+        {
+            "status": "Open",
+            "description": "A transaction was created/initiated, but not yet verified and/or processed."
+        },
+        {
+            "status": "Pending",
+            "description": "The transaction maybe verified by customer, but still awaiting or still being processed."
+        },
+        {
+            "status": "Complete",
+            "description": "The transaction has been successfully processed and completed."
+        },
+        {
+            "status": "Expired",
+            "description": "The customer has failed to verify the transaction within the set time (usually 1 minute), causing the transaction verification to expire."
+        },
+        {
+            "status": "Cancelled",
+            "description": "The transaction has been 'canceled' by customer."
+        },
+        {
+            "status": "Failed",
+            "description": "The transaction/payment has failed. It is possible that customer's bank is experiencing a disruption."
+        },
+        {
+            "status": "Chargeback",
+            "description": "The credit-card transaciton has been reversed."
+        },
+        {
+            "status": "Refunded",
+            "description": "Admin has refunded transaction to the customer via dashboard or the API."
+        }
+    ]
+}

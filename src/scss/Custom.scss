@@ -1,0 +1,91 @@
+.loading{position:absolute;background:rgba(255,255,255,.9);left:50%;top:50%;margin-top:-8px;margin-left:-20px;z-index:998;display:flex;align-items:center;justify-content:center}
+.divider--dashed:after,.divider--dashed:before,.page-aside--hidden>.loading,.page-sidepanel--hidden>.loading{display:none}
+.loading--solid{background:#fff}
+.loading>div{position:relative;width:20px;height:20px}
+.loading--w-spinner>div .loading-spinner{position:absolute;left:0;top:0;width:20px;height:20px;animation:rotate .5s infinite linear}
+.loading--w-spinner>div .loading-spinner:before{position:absolute;left:3px;top:3px;content:" ";width:14px;height:14px;border:2px solid #323c47;border-right-color:transparent;border-radius:7px}
+.loading--text.loading--w-spinner>div{padding-left:25px;width:auto}
+.loading--text>div{font-size:11px;font-weight:600;line-height:22px}
+.loading--dark{color:#FFF;background:rgba(0,0,0,.8)}
+.loading--dark.loading--w-spinner>div .loading-spinner:before{border-color:#FFF transparent #FFF #FFF}
+.loading--dark.loading--solid{background:#000}
+.loading.fadeOut{animation:fadeOut .2s linear}
+
+@keyframes rotate{0%{transform:rotate(0)}100%{transform:rotate(359deg)}}
+
+// page loader
+.page-loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+    background: #F6F6F6;
+    z-index: 999;
+}
+
+.spinner {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 70px;
+    height: 70px;
+    margin: -80px 0 0 -35px;
+    z-index: 1001
+}
+
+.spinner-round {
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: #16a3fe;
+    animation: spin 2s linear infinite
+}
+
+.spinner-round:before,
+.spinner-round:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid transparent
+}
+
+.spinner-round:before {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-top-color: #23c99d;
+    animation: spin 3s linear infinite
+}
+
+.spinner-round:after {
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-top-color: #122272;
+    animation: spin 1.5s linear infinite
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@media print{
+	.hide-on-print{
+		display: none;
+	}
+}
